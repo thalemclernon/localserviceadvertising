@@ -84,27 +84,18 @@ p {
   margin-bottom: 8px;
 }
 
-.headline-group {
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
-}
-
-.headline-group h1 {
+.hero h1 {
   font-size: 30px;
-  margin: 0;
 }
 
 .shout {
   color: var(--red);
-  font-weight: 800;
-  font-size: 30px;
-  margin: 0 0 32px;
 }
 
 .price-line {
-  font-size: 18px;
+  font-size: 15px;
   font-style: italic;
+  margin-bottom: 8px;
 }
 
 .price-line .muted {
@@ -148,6 +139,10 @@ p {
   font-size: 12px;
   text-align: center !important;
   margin: 12px 0 0;
+}
+
+.urgency + h2 {
+  margin-top: 24px;
 }
 
 /* Lists */
@@ -239,7 +234,7 @@ p {
 
 .band {
   background: var(--surface-sand);
-  margin: 32px -24px;
+  margin: 32px -24px 16px;
   padding: 32px 24px;
 }
 
