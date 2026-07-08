@@ -307,50 +307,16 @@ p {
   margin-bottom: 12px;
 }
 
-.proof-stat-line {
-  font-size: 0.92rem;
-  color: var(--ink);
-  background: var(--surface-alt);
+.proof-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
   border-radius: 6px;
-  padding: 10px 12px;
-  margin: 0;
+  border: 1px solid var(--border);
 }
 
-.stat-card .stat-number {
-  font-size: 2rem;
-  font-weight: 800;
-  color: var(--ink);
-  margin: 4px 0;
-  line-height: 1;
-}
-
-.stat-number-sub {
-  font-size: 1rem;
-  font-weight: 500;
-  color: var(--muted);
-}
-
-.stat-label {
-  font-size: 0.85rem;
-  color: var(--muted);
-  margin: 0;
-}
-
-.testimonial-card blockquote {
-  margin: 0;
-  font-size: 0.95rem;
-  border-left: 3px solid var(--orange);
-  padding-left: 14px;
-}
-
-.testimonial-name {
-  font-weight: 700;
-  margin-bottom: 8px;
-}
-
-.testimonial-source {
-  font-weight: 400;
-  color: var(--muted);
+.proof-image + .proof-image {
+  margin-top: 10px;
 }
 
 /* FAQ */
