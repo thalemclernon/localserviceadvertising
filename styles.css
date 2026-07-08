@@ -22,7 +22,7 @@ body {
   color: var(--ink);
   background: var(--surface);
   line-height: 1.6;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 main {
@@ -46,13 +46,12 @@ h1, h2, h3 {
   margin: 0 0 20px;
 }
 
-h1 {
-  font-size: 2.1rem;
-  text-align: center;
+h1, h2 {
+  font-size: 22px;
 }
 
-h2 {
-  font-size: 1.6rem;
+h1 {
+  text-align: center;
 }
 
 h2.center, h1.center {
@@ -84,11 +83,21 @@ p {
   margin-bottom: 8px;
 }
 
+.headline-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.headline-group h1 {
+  margin: 0;
+}
+
 .shout {
   color: var(--red);
   font-weight: 800;
   font-size: 2rem;
-  margin: 8px 0 32px;
+  margin: 0 0 32px;
 }
 
 .price-line {
@@ -134,7 +143,8 @@ p {
 .urgency {
   color: var(--red);
   font-weight: 700;
-  text-align: center;
+  font-size: 10px;
+  text-align: center !important;
   margin: 12px 0 0;
 }
 
@@ -321,31 +331,28 @@ p {
 /* FAQ */
 
 .faq-item {
-  margin-bottom: 32px;
-  text-align: center;
+  text-align: left;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 24px 28px;
+  margin-bottom: 20px;
+  background: var(--surface-alt);
 }
 
 .faq-item h3 {
-  text-align: center;
+  text-align: left;
 }
 
 .faq-item p {
   text-align: left;
 }
 
+.faq-item .btn-cta,
+.faq-item .urgency {
+  text-align: center;
+}
+
 @media (max-width: 640px) {
-  body {
-    font-size: 16.5px;
-  }
-
-  h1 {
-    font-size: 1.6rem;
-  }
-
-  h2 {
-    font-size: 1.3rem;
-  }
-
   .shout {
     font-size: 1.5rem;
   }
