@@ -298,6 +298,7 @@ p {
 
 .proof-item .proof-quote {
   font-style: italic;
+  font-weight: 700;
   font-size: 0.95rem;
   margin-bottom: 5px;
 }
