@@ -90,18 +90,19 @@ p {
 }
 
 .headline-group h1 {
+  font-size: 30px;
   margin: 0;
 }
 
 .shout {
   color: var(--red);
   font-weight: 800;
-  font-size: 2rem;
+  font-size: 30px;
   margin: 0 0 32px;
 }
 
 .price-line {
-  font-size: 1.2rem;
+  font-size: 18px;
   font-style: italic;
 }
 
@@ -143,7 +144,7 @@ p {
 .urgency {
   color: var(--red);
   font-weight: 700;
-  font-size: 10px;
+  font-size: 12px;
   text-align: center !important;
   margin: 12px 0 0;
 }
