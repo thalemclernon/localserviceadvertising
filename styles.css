@@ -236,12 +236,16 @@ p {
 
 .band {
   background: var(--surface-sand);
-  margin: 32px -24px 16px;
-  padding: 32px 24px;
+  margin: 16px -24px 8px;
+  padding: 16px 24px;
 }
 
 .band > p:last-child {
   margin-bottom: 0;
+}
+
+.tight-bottom {
+  margin-bottom: 10px;
 }
 
 /* Qualification boxes */
