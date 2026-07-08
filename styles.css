@@ -232,6 +232,10 @@ p {
   text-align: center;
 }
 
+.text-left {
+  text-align: left;
+}
+
 /* Qualification boxes */
 
 .qual-box {
