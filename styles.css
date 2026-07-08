@@ -289,14 +289,14 @@ p {
 
 .proof-grid {
   margin-top: 32px;
-  columns: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   column-gap: 32px;
+  row-gap: 40px;
 }
 
-.proof-item {
-  break-inside: avoid;
-  -webkit-column-break-inside: avoid;
-  margin-bottom: 40px;
+.proof-full {
+  grid-column: 1 / -1;
 }
 
 .proof-item .proof-quote {
@@ -311,8 +311,20 @@ p {
   height: auto;
 }
 
-.proof-image + .proof-image {
+.proof-image + .proof-image,
+.proof-image + p {
   margin-top: 10px;
+}
+
+.proof-stat-line {
+  font-size: 0.92rem;
+  color: var(--ink);
+}
+
+@media (max-width: 640px) {
+  .proof-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* FAQ */
