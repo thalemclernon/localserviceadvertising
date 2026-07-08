@@ -281,10 +281,7 @@ p {
 /* Proof / testimonial grid */
 
 .proof {
-  background: var(--surface-alt);
-  margin: 0 -24px;
-  padding-left: 24px;
-  padding-right: 24px;
+  background: #ffffff;
 }
 
 .proof-grid {
@@ -292,7 +289,7 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 32px;
-  row-gap: 40px;
+  row-gap: 16px;
 }
 
 .proof-full {
@@ -302,7 +299,11 @@ p {
 .proof-item .proof-quote {
   font-style: italic;
   font-size: 0.95rem;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+}
+
+.proof-quote.proof-center {
+  text-align: center;
 }
 
 .proof-image {
@@ -313,12 +314,7 @@ p {
 
 .proof-image + .proof-image,
 .proof-image + p {
-  margin-top: 10px;
-}
-
-.proof-stat-line {
-  font-size: 0.92rem;
-  color: var(--ink);
+  margin-top: 5px;
 }
 
 @media (max-width: 640px) {
