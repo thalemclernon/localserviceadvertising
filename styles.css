@@ -121,6 +121,7 @@ p {
 }
 
 .section > .btn-cta,
+.band > .btn-cta,
 .faq-item > .btn-cta,
 .qual-box + .btn-cta {
   display: block;
