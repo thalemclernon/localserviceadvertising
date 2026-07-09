@@ -395,6 +395,10 @@ p:has(+ .founder-photo) {
     font-size: 1.5rem;
   }
 
+  .hero .nowrap + br {
+    display: none;
+  }
+
   .proof-grid {
     grid-template-columns: 1fr;
   }
