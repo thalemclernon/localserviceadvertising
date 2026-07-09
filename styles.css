@@ -257,6 +257,15 @@ p {
   margin-bottom: 0;
 }
 
+.founder-photo {
+  display: block;
+  max-width: 210px;
+  width: 100%;
+  height: auto;
+  margin: 8px auto 20px;
+  border-radius: 8px;
+}
+
 .band:has(+ .band) {
   margin-bottom: 0;
 }
