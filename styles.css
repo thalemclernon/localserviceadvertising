@@ -392,6 +392,10 @@ p:has(+ .founder-photo) {
 }
 
 @media (max-width: 640px) {
+  .hero {
+    padding-top: 13px;
+  }
+
   .shout {
     font-size: 1.5rem;
   }
