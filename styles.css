@@ -93,7 +93,7 @@ p {
   max-width: 280px;
   width: 100%;
   height: auto;
-  margin: 6px auto;
+  margin: 2px auto;
 }
 
 @media (min-width: 641px) {
