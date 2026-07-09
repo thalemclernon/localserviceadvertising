@@ -266,13 +266,13 @@ p:has(+ .founder-photo) {
   max-width: 252px;
   width: 100%;
   height: auto;
-  margin: 2px auto 2.4px;
+  margin: 2px auto 3.6px;
   border-radius: 8px;
 }
 
 @media (min-width: 641px) {
   .founder-photo {
-    max-width: 378px;
+    max-width: 756px;
   }
 }
 
