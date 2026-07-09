@@ -374,3 +374,9 @@ p {
     font-size: 21px;
   }
 }
+
+@media (min-width: 641px) {
+  body {
+    zoom: 1.2;
+  }
+}
