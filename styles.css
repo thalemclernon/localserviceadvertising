@@ -313,12 +313,6 @@ p {
   margin-top: 5px;
 }
 
-@media (max-width: 640px) {
-  .proof-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
 /* FAQ */
 
 .faq-item {
@@ -349,11 +343,15 @@ p {
   }
 
   .proof-grid {
-    columns: 1;
+    grid-template-columns: 1fr;
   }
 
   .btn-cta {
     font-size: 1.05rem;
     padding: 16px 28px;
+  }
+
+  .hero .nowrap {
+    white-space: normal;
   }
 }
