@@ -257,13 +257,23 @@ p {
   margin-bottom: 0;
 }
 
+p:has(+ .founder-photo) {
+  margin-bottom: 2px;
+}
+
 .founder-photo {
   display: block;
   max-width: 252px;
   width: 100%;
   height: auto;
-  margin: 1px auto 2px;
+  margin: 2px auto 2.4px;
   border-radius: 8px;
+}
+
+@media (min-width: 641px) {
+  .founder-photo {
+    max-width: 378px;
+  }
 }
 
 .band:has(+ .band) {
