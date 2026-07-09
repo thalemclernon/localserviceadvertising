@@ -265,9 +265,7 @@ p:has(+ .founder-photo) {
   display: block;
   width: calc(100% + 48px);
   max-width: calc(100% + 48px);
-  height: 120px;
-  object-fit: cover;
-  object-position: center;
+  height: auto;
   margin: 2px -24px 3.6px;
   border-radius: 8px;
 }
@@ -275,6 +273,8 @@ p:has(+ .founder-photo) {
 @media (min-width: 641px) {
   .founder-photo {
     height: 327px;
+    object-fit: cover;
+    object-position: center;
   }
 }
 
