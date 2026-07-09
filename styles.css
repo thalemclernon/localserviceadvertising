@@ -259,10 +259,10 @@ p {
 
 .founder-photo {
   display: block;
-  max-width: 210px;
+  max-width: 252px;
   width: 100%;
   height: auto;
-  margin: 8px auto 20px;
+  margin: 1px auto 2px;
   border-radius: 8px;
 }
 
