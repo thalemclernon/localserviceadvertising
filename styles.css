@@ -418,4 +418,8 @@ p:has(+ .founder-photo) {
   body {
     zoom: 1.2;
   }
+
+  .hero {
+    padding-top: 32px;
+  }
 }
