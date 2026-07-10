@@ -72,6 +72,7 @@ p {
 .hero {
   text-align: center;
   padding-top: 64px;
+  padding-bottom: 8px;
 }
 
 .eyebrow {
@@ -266,6 +267,19 @@ p {
 
 .band-2 {
   background: var(--band-color-2);
+}
+
+.gap-before-heading {
+  margin-bottom: 12px;
+}
+
+.band-tight-top {
+  margin-top: 4px;
+  padding-top: 4px;
+}
+
+.section-tight-top {
+  padding-top: 8px;
 }
 
 .band > p:last-child {
