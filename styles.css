@@ -341,6 +341,43 @@ p:has(+ .founder-photo) {
   color: var(--red);
 }
 
+/* Value props */
+
+.value-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.value-item {
+  text-align: center;
+  border: 1px solid #8a8a8a;
+  border-radius: 10px;
+  padding: 20px 14px;
+  max-width: 260px;
+  margin: 0 auto;
+}
+
+.value-icon {
+  width: 40px;
+  height: 40px;
+  display: block;
+  margin: 0 auto 10px;
+  color: var(--orange);
+}
+
+.value-item p {
+  font-weight: 700;
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .value-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
 /* Proof / testimonial grid */
 
 .proof {
